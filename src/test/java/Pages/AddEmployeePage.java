@@ -5,6 +5,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+import java.util.List;
+
 public class AddEmployeePage extends CommonMethods {
 
     @FindBy(id="firstName")
@@ -36,6 +38,9 @@ public class AddEmployeePage extends CommonMethods {
 
     @FindBy(id="re_password")
     public WebElement confirmPassword;
+
+
+
 
     public AddEmployeePage(){
         PageFactory.initElements(driver, this);

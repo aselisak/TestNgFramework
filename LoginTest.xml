@@ -4,13 +4,12 @@
     <listeners>
         <listener class-name="Utils.listeners"></listener>
     </listeners>
-    <test verbose="2" preserve-order="true"
-          name="/Applications/TestNGFrameWork/src/test/java/Test/AddEmployeeTest.java">
+    <test verbose="2" preserve-order="true" name="/Applications/TestNGFrameWork/src/test/java/Test/LoginTest.java">
         <classes>
-            <class name="Test.AddEmployeeTest">
+            <class name="Test.LoginTest">
                 <methods>
-                    <include name="addEmployee"/>
-                    <include name="addMultipleEmployee"/>
+                    <include name="logoIsPresent"/>
+                    <include name="invalidCredentials"/>
                 </methods>
             </class>
         </classes>
